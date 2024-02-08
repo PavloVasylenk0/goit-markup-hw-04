@@ -39,6 +39,7 @@ button {
 .header {
   border-bottom: 1px solid #e7e9fc;
   padding: 24px 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-navigation {
@@ -57,6 +58,8 @@ button {
   text-transform: uppercase;
   margin-right: 76px;
   display: flex;
+  position: relative;
+  color: #404bbf;
 }
 
 .header-logo span {
@@ -83,6 +86,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-container {
@@ -120,6 +124,7 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-lin:hover,
@@ -133,6 +138,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   padding: 188px 0;
+
 }
 
 .solution-title {
@@ -167,6 +173,9 @@ button {
 
 .solution-container {
   margin: 0 auto;
+  background-size: cover;
+  max-width: 1440px;
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .solution-btn:hover {
