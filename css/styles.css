@@ -133,12 +133,12 @@ button {
   gap: 40px;
 }
 
-.header-contact-mail a {
+.header-contact-mail {
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contact-phone a {
+.header-contact-phone {
   color: #434455;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -150,7 +150,7 @@ button {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-lin:hover {
@@ -208,7 +208,7 @@ button {
   height: 56px;
   border: none;
   border-radius: 4px;
-  transition: background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-container {
